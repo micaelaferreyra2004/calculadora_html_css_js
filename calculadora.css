@@ -1,0 +1,28 @@
+h1{
+    color: rgb(0, 130, 139);
+    font-size: 24px;
+    text-align: center;
+    font-family: monospace;
+}   
+input {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: monospace;
+    border: 2px solid darkblue; /* Agregar un borde al botón */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+button{
+    color: darkblue;
+    font-size: 14px;
+    font-family: monospace;
+    border: 2px solid darkblue; /* Agregar un borde al botón */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    color: white; /* Cambiar el color del texto al pasar el cursor sobre el botón */
+    background-color: #FFA533; /* Cambiar el color de fondo al pasar el cursor sobre el botón */
+}
+
+button:active {
+    background-color: #FF3300; /* Cambiar el color de fondo cuando se hace clic en el botón */
+}
